@@ -1,7 +1,7 @@
 {
+  "homepage": "https://tan1shqc.github.io/Readwell-front-end",
   "name": "project",
   "version": "0.1.0",
-  "homepage": "https://tan1shqc.github.io/Readwell-front-end",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
