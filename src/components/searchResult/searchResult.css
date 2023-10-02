@@ -1,0 +1,38 @@
+.result-info {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.result-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.book-container {
+    width: 240px;
+    height: 360px;
+    /* margin: 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.book-container img {
+    flex: 1;
+    margin: 10px;
+}
+
+.book-title, .book-author {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.book-author {
+    font-size: 1rem;
+    font-weight: 400;
+}

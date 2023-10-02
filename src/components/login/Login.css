@@ -1,0 +1,105 @@
+.login-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-container > img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    padding: 6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-logo {
+    font-size: 2rem;
+}
+
+.login-logo:hover {
+    color: var(--primary-d);
+}
+
+.login-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    /* padding: 3rem 1rem;
+    border: 1px solid var(--black3);
+    border-radius: 5%; */
+}
+
+.login-main form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login-main h2 {
+    text-align: center;
+}
+
+.login-divider {
+    width: 18rem;
+    height: 0.12rem;
+    background-color: var(--black3);
+}
+
+.login-main input {
+    font-size: 0.9rem;
+    padding: 0 1rem;
+    width: 18rem;
+    height: 2.2rem;
+    border-radius: 0.54rem;
+
+    border: 1px solid var(--black3);
+    outline: none;
+}
+
+.login-main input:focus {
+    border: 1px solid var(--primary-d);
+}
+
+.login-main button {
+    background-color: var(--primary-d);
+    width: 18rem;
+    height: 2.2rem;
+    border-radius: 0.54rem;
+
+    border: 1px solid var(--black3);
+    outline: none;
+}
+
+.login-main button:enabled {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.login-main button:enabled:hover {
+    color: var(--white2);
+}
+
+.login-main p {
+    font-size: 0.8rem;
+    color: red;
+}
+
+.login-redirect, .login-logo {
+    transition: all 0.2s ease;
+}
+
+.login-redirect:hover {
+    color: var(--primary-d);
+}
