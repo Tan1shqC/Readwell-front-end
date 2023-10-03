@@ -7,7 +7,7 @@ import author from "../../assets/author.png";
 import social1 from "../../assets/social-right-1.png";
 import social2 from "../../assets/social-right-2.png";
 import { useEffect } from 'react';
-import useTheme, { setFooterColor } from '../../hooks/useTheme';
+import useTheme from '../../hooks/useTheme';
 
 const Home = () => {
     const { setFooterColor } = useTheme();
